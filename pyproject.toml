@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "interviews"
+version = "0.1.0"
+description = ""
+authors = ["Anton Sidarevich"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.10.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
